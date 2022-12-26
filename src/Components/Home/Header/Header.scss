@@ -17,14 +17,31 @@
     font-weight: bold;
 }
 
+.header {
+    justify-content: space-around;
+}
+
 .logo {
     gap: 0.7rem;
     padding-right: 1.5rem;
 }
 
+.links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
 .explore {
     &__icon {
         flex-direction: column;
+        height: 60px;
         justify-content: space-around;
+        overflow: hidden;
+    
     }
 }
