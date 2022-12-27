@@ -1,5 +1,9 @@
 @import "../../../Assets/Styles/variables.scss";
 
+a {
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
 }
@@ -19,28 +23,63 @@
 
 .header {
     justify-content: space-between;
-    padding: 0 2rem;
     color: $header-color;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $border-primary-color;
+
+    &_container {
+        padding: 0 2rem;
+    }
 }
+
+$padding: 1rem;
 
 .logo {
     gap: 0.7rem;
+    padding-right: $padding;
+    cursor: pointer;
 }
 
 .links {
     margin: 0;
-    padding: 0;
+    padding: 0 $padding;
     list-style: none;
+    gap: 1rem;
     justify-content: space-around;
 
     a {
-        text-decoration: none;
+        color: $header-color;
+        padding-right: 0.5rem;
+    }
+
+    img {
+        transition: transform 300ms;
+    }
+
+    li:hover img {
+        transform: translateY(3px);
     }
 }
 
 .explore {
     align-items: center;
+    padding: 0 $padding;
     gap: 1rem;
+    height: 1.5rem;
+    border-left: 1px solid $border-primary-color;
+    border-right: 1px solid $border-primary-color;
+    cursor: pointer;
+
+    &:hover>div {
+        div {
+            &:first-of-type {
+                transform: translateX(-5px);
+            }
+            &:last-of-type {
+                transform: translateX(5px);
+            }
+        }
+    }
 
     &__icon {
         flex-direction: column;
@@ -49,8 +88,9 @@
         gap: 5px;
 
         div {
+            transition: transform 300ms;
             display: flex;
-
+            
             &:nth-of-type(1) {
                 justify-content: end;
             }
@@ -61,5 +101,63 @@
                 justify-content: start;
             }
         }
+    }
+}
+
+.basket {
+    padding: 0 1rem;
+    border-right: 1px solid $border-primary-color;
+}
+
+.right {
+    .buttons {
+        a {
+            &:first-of-type {
+                padding: 0 1rem;
+                color: $primary-color;
+            }
+
+            &:last-of-type {
+                padding: 0.75rem 1.5rem;
+                border-radius: $radius;
+                background-color: $primary-color;
+                color: white;
+                transition: background 300ms;
+
+                &:hover {
+                    background-color: lighten($color: $primary-color, $amount: 10%);
+                }
+
+                &:active {
+                    background-color: darken($color: $primary-color, $amount: 10%);
+                }
+            }
+        }
+    }
+}
+
+form {
+    position: relative;
+
+    input {
+        width: 100%;
+        padding: 0.75rem;
+        padding-left: 1.2rem;
+        padding-right: 5rem;
+        border-radius: $radius;
+        border: 1px solid $border-primary-color;
+
+        &::placeholder {
+            font-size: 0.65rem;
+        }
+    }
+
+    button {
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
     }
 }

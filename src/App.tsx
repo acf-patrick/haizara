@@ -3,10 +3,6 @@ import "./App.scss";
 import { useEffect } from 'react';
 
 function App() {
-  useEffect(() => {
-    document.title = "PDAL";
-  }, []);
-
   return (
     <div className="App">
       <Home />
