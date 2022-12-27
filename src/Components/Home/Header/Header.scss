@@ -14,22 +14,24 @@
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .header {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 2rem;
+    color: $header-color;
 }
 
 .logo {
     gap: 0.7rem;
-    padding-right: 1.5rem;
 }
 
 .links {
     margin: 0;
     padding: 0;
     list-style: none;
+    justify-content: space-around;
 
     a {
         text-decoration: none;
@@ -37,11 +39,27 @@
 }
 
 .explore {
+    align-items: center;
+    gap: 1rem;
+
     &__icon {
         flex-direction: column;
-        height: 60px;
-        justify-content: space-around;
-        overflow: hidden;
-    
+        height: 40px;
+        justify-content: center;
+        gap: 5px;
+
+        div {
+            display: flex;
+
+            &:nth-of-type(1) {
+                justify-content: end;
+            }
+            &:nth-of-type(2) {
+                justify-content: space-around;
+            }
+            &:nth-of-type(3) {
+                justify-content: start;
+            }
+        }
     }
 }

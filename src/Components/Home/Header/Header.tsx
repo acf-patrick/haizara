@@ -16,19 +16,13 @@ function Header() {
         </div>
         <div className="explore flex">
           <div className="explore__icon flex">
-            <div>
-              <img src={rect1} alt="rect" />
-            </div>
-            <div>
-              <img src={rect2} alt="rect" />
-            </div>
-            <div>
-              <img src={rect1} alt="rect" />
-            </div>
+              <div><img src={rect1} alt="rect" /></div>
+              <div><img src={rect2} alt="rect" /></div>
+              <div><img src={rect1} alt="rect" /></div>
           </div>
           <div>Explore</div>
         </div>
-        <ul className="links flex">
+        <ul className="links flex align-center">
           <li>
             <a href="#">Home</a>
             <img src={vector} alt="down-arrow" />
