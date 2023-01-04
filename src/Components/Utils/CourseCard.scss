@@ -1,0 +1,12 @@
+@import "../../Assets/Styles/variables.scss";
+
+.card-course {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    .image {
+        width: 100%;
+        background: url(../../Assets/Images/Surface\ 1.png);
+    }
+}
