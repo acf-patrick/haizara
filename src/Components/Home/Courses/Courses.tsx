@@ -21,6 +21,7 @@ function Courses() {
                 href="#"
                 className={`${i == active ? "active" : ""}`}
                 onClick={(e) => {
+                  e.preventDefault();
                   setActive(i);
                 }}
               >

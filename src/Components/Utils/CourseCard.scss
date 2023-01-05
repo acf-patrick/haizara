@@ -1,12 +1,68 @@
 @import "../../Assets/Styles/variables.scss";
 
-.card-course {
+.hide {
+    display: none;
+}
+
+.course-card {
     width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
     display: flex;
+    position: relative;
     flex-direction: column;
 
-    .image {
+    &:hover {
+        .shadow {
+            background-color: rgba(0, 0, 0, 0.464);
+        }
+    }
+
+    .shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        background: url(../../Assets/Images/Surface\ 1.png);
+        height: 100%;
+        z-index: 0;
+        background-color: transparent;
+        transition: background-color 500ms;
+    }
+
+    .image {
+        height: 200px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .tags {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.7rem 1rem;
+        text-transform: uppercase;
+
+        span {
+            z-index: 2;
+            font-size: 0.7rem;
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+
+            &:nth-of-type(1) {
+                color: white;
+            }
+        }
+    }
+
+    .new {
+        background: $bg-quaternary-color;
+    }
+
+    .popular {
+        background: $primary-color;
+    }
+
+    .best-seller {
+        color: $header-color;
+        background: $bg-six-color;
     }
 }
