@@ -1,5 +1,6 @@
 export default interface ICourseCardProps {
   image?: string;
+  year: number;
   stars: number;
   title: string;
   lessons: number;

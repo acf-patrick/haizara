@@ -3,6 +3,7 @@ import ICourseCardProps from "../../../Interfaces/ICourseCard";
 const courses: ICourseCardProps[] = [
   {
     stars: 4.5,
+    year: 1995,
     title: "complete python bootcamp from zero to hero in python",
     lessons: 6,
     duration: "3h 56m",
@@ -12,9 +13,10 @@ const courses: ICourseCardProps[] = [
     author: "Ali Tufan",
 		status: "popular",
 		bestSeller: true
-  },/*
+  },
   {
     stars: 4.5,
+    year: 1995,
     title: "learn figma - UI/UX design essential training",
     lessons: 6,
     duration: "3h 56m",
@@ -25,6 +27,7 @@ const courses: ICourseCardProps[] = [
   },
   {
     stars: 4.5,
+    year: 1995,
     title: "angular - the complete guide (2022 edition)",
     lessons: 6,
     duration: "3h 56m",
@@ -36,6 +39,7 @@ const courses: ICourseCardProps[] = [
   },
   {
     stars: 4.5,
+    year: 1995,
     title: "the ultimate draing course beginer to advanced",
     lessons: 6,
     duration: "3h 56m",
@@ -44,7 +48,7 @@ const courses: ICourseCardProps[] = [
     price: 79,
     author: "Ali Tufan",
 		status: "popular"
-  }, */
+  }, 
 ];
 
 export default courses;
