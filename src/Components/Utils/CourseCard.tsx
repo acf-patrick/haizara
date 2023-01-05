@@ -11,7 +11,7 @@ import "./CourseCard.scss";
 function CourseCard({ props }: { props: ICourseCardProps }) {
 	let stars: ReactElement[] = [];
 	for (let i = 0; i < Math.ceil(props.stars); ++i)
-		stars.push(<img alt="star" src={star} />);
+		stars.push(<img key={i} alt="star" src={star} />);
 
   return (
     <div className="course-card">

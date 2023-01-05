@@ -2,7 +2,7 @@
 
 .popular-courses {
   display: flex;
-  padding-top: 4rem;
+  margin-top: 4rem;
   flex-direction: column;
 
   .title {
@@ -35,6 +35,8 @@
       padding: 0.8rem 1.25rem;
       border-radius: 2rem;
       text-transform: capitalize;
+      background: transparent;
+      transition: background 500ms;
 
       &.active {
         background: transparentize($color: $primary-color, $amount: 0.7);
@@ -45,12 +47,23 @@
 }
   
 .courses {
+  margin-top: 2rem;
+
   button {
     display: none;
   }
 
   .list {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
+    overflow: auto;
+
+    &>div {
+      flex-shrink: 0;
+    }
+
+    /* &::-webkit-scrollbar {
+      display: none;
+    } */
   }
 }
