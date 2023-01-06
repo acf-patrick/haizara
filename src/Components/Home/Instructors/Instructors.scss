@@ -1,0 +1,36 @@
+@import "../../../Assets/Styles/variables.scss";
+
+.instructors {
+  width: 70%;
+  margin: auto;
+  padding: 3rem 0;
+
+  &-container {
+    width: 100%;
+    background: $bg-fifth-color;
+  }
+
+  button {
+    border-radius: 2rem;
+  }
+
+  .list {
+    margin: 3rem 0;
+    display: flex;
+    gap: 1.5rem;
+    overflow: auto;
+
+    & > div {
+      flex-shrink: 0;
+    }
+  }
+
+  .message {
+    color: $text-color;
+		text-align: center;
+
+    a {
+			text-decoration: underline;
+    }
+  }
+}

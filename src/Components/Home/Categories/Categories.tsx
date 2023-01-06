@@ -2,7 +2,7 @@ import "./Categories.scss";
 import "../../../Assets/Styles/styles.scss";
 import send from "../../../Assets/Images/send.svg";
 import CategoryCard from "../../Utils/CategoryCard";
-import mockCategories from "./mockCategories";
+import categories from "./mockCategories";
 
 function Categories() {
   return (
@@ -20,7 +20,7 @@ function Categories() {
         </button>
       </div>
       <div className="list">
-        {mockCategories.map((category, i) => (
+        {categories.map((category, i) => (
           <CategoryCard
 						key={i}
             image={category.image}

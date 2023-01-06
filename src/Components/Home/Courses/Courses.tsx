@@ -36,7 +36,7 @@ function Courses() {
         <button className="left"></button>
         <div className="list">
           {courses.map((course, i) => 
-            <CourseCard props={course} key={i} />
+            <CourseCard {...course} key={i} />
           )}
         </div>
         <button className="right"></button>

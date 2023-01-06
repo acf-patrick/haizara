@@ -1,0 +1,54 @@
+@import "../../Assets/Styles/variables.scss";
+
+.instructor-card {
+	.name {
+		font-weight: bold;
+		color: $header-color;
+	}
+
+	.status {
+		color: $text-color;
+		font-size: 0.9rem;
+	}
+
+	.photo {
+		width: 300px;
+		height: 330px;
+		overflow: hidden;
+		border-radius: 8px;
+	
+		.inner {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			background: transparent;
+			opacity: 0;
+			transition: opacity 500ms;
+			background: rgba($color: $secondary-color, $alpha: 0.6);
+
+			.links {
+				display: flex;
+				gap: 1rem;
+			}
+		}
+
+		&:hover {
+			.inner {
+				opacity: 1;
+			}
+		}
+	}
+
+	.misc {
+		display: flex;
+		gap: 0.65rem;
+		align-items: center;
+		font-size: 0.75rem;
+		color: $text-color;
+
+		span:first-of-type {
+			color: #E59819;
+		}
+	}
+}

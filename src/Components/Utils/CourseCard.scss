@@ -91,53 +91,51 @@
     }
   }
 
-	.author-pricing {
-		margin-top: 0.5rem;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+  .author-pricing {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-		.author {
-			display: flex;
-			align-items: center;
-			gap: 0.5rem;
-			color: $text-color;
-			font-size: 0.95rem;
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: $text-color;
+      font-size: 0.95rem;
 
-			img {
-				border-radius: 1rem;
-			}
-		}
+      img {
+        border-radius: 1rem;
+      }
+    }
 
-		.price {
+    .price {
+      .old {
+        font-size: 0.95rem;
+        color: $text-color;
+        text-decoration: line-through;
+      }
 
-
-			.old {
-				font-size: 0.95rem;
-				color: $text-color;
-				text-decoration: line-through;
-			}
-
-			.value {
-				color: $header-color;
-				margin-left: 0.5rem;
-				font-weight: bold;
-			}
-		}
-	}
+      .value {
+        color: $header-color;
+        margin-left: 0.5rem;
+        font-weight: bold;
+      }
+    }
+  }
 
   .misc {
     display: flex;
     justify-content: space-between;
     font-size: 0.8rem;
-		padding: 1rem 0 0.5rem;
-		color: $text-color;
-		border-bottom: 1px solid $border-primary-color;
+    padding: 1rem 0 0.5rem;
+    color: $text-color;
+    border-bottom: 1px solid $border-primary-color;
 
     div {
       display: flex;
       align-items: center;
-			gap: 0.5rem;
+      gap: 0.5rem;
     }
   }
 }

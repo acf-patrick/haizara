@@ -1,6 +1,7 @@
 @import "../../Assets/Styles/variables.scss";
 
-main {
+main > div {
   width: 70%;
   margin: auto;
+  margin-top: 5rem;
 }
