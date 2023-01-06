@@ -2,6 +2,7 @@ import { useState } from "react";
 import courses from "./mockCourses"
 import CourseCard from "../../Utils/CourseCard";
 import "./Courses.scss";
+import "../../../Assets/Styles/styles.scss";
 
 function Courses() {
   const [active, setActive] = useState(0);
@@ -10,7 +11,7 @@ function Courses() {
   return (
     <div className="popular-courses">
       <div className="title">
-        <div className="text">
+        <div>
           <h1>explore featured courses</h1>
           <p>10,000+ unique online course list designs</p>
         </div>
