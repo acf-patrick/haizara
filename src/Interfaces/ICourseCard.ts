@@ -11,5 +11,5 @@ export default interface ICourseCardProps {
   oldPrice: number;
   price: number;
   bestSeller?: boolean;
-  status?: string; // new / popular
+  status?: "new" | "popular"; // new / popular
 }
