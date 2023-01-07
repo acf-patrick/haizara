@@ -6,6 +6,7 @@
   padding: 2rem 0;
   background: white;
   transition: transform 300ms;
+  position: relative;
 
   &:hover {
     transform: translateY(-10px);
@@ -31,6 +32,20 @@
   .inner {
     display: flex;
     flex-direction: column;
+  }
+
+  .badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: $bg-quaternary-color;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 2rem;
   }
 
   .photo {
