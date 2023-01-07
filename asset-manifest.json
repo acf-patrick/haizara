@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/haizara/static/css/main.1d3e47ae.css",
-    "main.js": "/haizara/static/js/main.1b4e883c.js",
+    "main.css": "/haizara/static/css/main.61194fa6.css",
+    "main.js": "/haizara/static/js/main.57266c80.js",
     "static/js/787.8cb3fcfd.chunk.js": "/haizara/static/js/787.8cb3fcfd.chunk.js",
     "static/media/Mulish.ttf": "/haizara/static/media/Mulish.d8a9a18cece4ed88ac76.ttf",
     "static/media/GTWalsheimPro-Regular.ttf": "/haizara/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
@@ -12,13 +12,18 @@
     "static/media/science.svg": "/haizara/static/media/science.7ba1b689c0cb26071db8ebc020c2205b.svg",
     "static/media/design.svg": "/haizara/static/media/design.acf0ec52809279b77d6c39b331e56638.svg",
     "static/media/card.svg": "/haizara/static/media/card.64a518ad34cc7e6a15345281a1d2c655.svg",
+    "static/media/experts.svg": "/haizara/static/media/experts.6745b4c91751dd0c24e91db65c1f2677.svg",
     "static/media/Spotify-2-2.svg": "/haizara/static/media/Spotify-2-2.4a5580395e0d6159c51b578123fba874.svg",
     "static/media/code.svg": "/haizara/static/media/code.697bd1c009513d07291892fda03344e3.svg",
+    "static/media/learn.svg": "/haizara/static/media/learn.6efb4c04250a9f9c8a205545b5bef015.svg",
     "static/media/cisco-2-1-2.svg": "/haizara/static/media/cisco-2-1-2.136f168bd58cb612f622a35898a56b11.svg",
     "static/media/amazon-4.svg": "/haizara/static/media/amazon-4.177ec9983bbff3f1f3da3797801be099.svg",
+    "static/media/online-learning 1.svg": "/haizara/static/media/online-learning 1.590797d81c0d1581a699c75dae4db321.svg",
     "static/media/megaphone.svg": "/haizara/static/media/megaphone.ea8a8660626eb2291a449287fd86a808.svg",
     "static/media/logitech-2-1-3-1.svg": "/haizara/static/media/logitech-2-1-3-1.fe80382c446937cffeb81d31dc3730ae.svg",
     "static/media/dropcam.svg": "/haizara/static/media/dropcam.e734a28068f4e2e522e9ec023146755a.svg",
+    "static/media/certificate 1.svg": "/haizara/static/media/certificate 1.fc589285c66b674174c56eb86ece9d8d.svg",
+    "static/media/badge.svg": "/haizara/static/media/badge.d49d1d28da11e7bf0e2f199ac6bac361.svg",
     "static/media/icon.svg": "/haizara/static/media/icon.7aa45d3ae7776b5cf86d5c233dcda713.svg",
     "static/media/student.svg": "/haizara/static/media/student.fecf31e46f64a0c6e62e3ddaab76712e.svg",
     "static/media/instagram.svg": "/haizara/static/media/instagram.67413e9a2ae307844e98e71250ab8392.svg",
@@ -38,12 +43,12 @@
     "static/media/facebook.svg": "/haizara/static/media/facebook.7cb8783ac2a77c7979b28b28fd853e1d.svg",
     "static/media/Rectangle 50.svg": "/haizara/static/media/Rectangle 50.0aba207d66a2d6538ef15b6eeff7a7a4.svg",
     "static/media/Rectangle 51.svg": "/haizara/static/media/Rectangle 51.cc1e8163a4f76b7585c848d7a74f9a3e.svg",
-    "main.1d3e47ae.css.map": "/haizara/static/css/main.1d3e47ae.css.map",
-    "main.1b4e883c.js.map": "/haizara/static/js/main.1b4e883c.js.map",
+    "main.61194fa6.css.map": "/haizara/static/css/main.61194fa6.css.map",
+    "main.57266c80.js.map": "/haizara/static/js/main.57266c80.js.map",
     "787.8cb3fcfd.chunk.js.map": "/haizara/static/js/787.8cb3fcfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3e47ae.css",
-    "static/js/main.1b4e883c.js"
+    "static/css/main.61194fa6.css",
+    "static/js/main.57266c80.js"
   ]
 }
