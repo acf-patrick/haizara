@@ -8,6 +8,7 @@ import linkedin from "../../Assets/Images/linkedin.svg";
 import instagram from "../../Assets/Images/instagram.svg";
 import IInstructorCard from "../../Interfaces/IInstructorCard";
 import defaultPhoto from "../../Assets/Images/Surface 2.png";
+
 function InstructorCard({
   photo,
   name,
@@ -15,18 +16,33 @@ function InstructorCard({
   stars,
   students,
   courses,
+  facebook: facebookLink,
+  twitter: twitterLink,
+  instagram: instagramLink,
+  linkedin: linkedinLink,
 }: IInstructorCard) {
   return (
     <div className="instructor-card">
-      <div className="photo" style={{
-		background: `url(${photo ? photo: defaultPhoto})`
-	  }}>
+      <div
+        className="photo"
+        style={{
+          background: `url(${photo ? photo : defaultPhoto})`,
+        }}
+      >
         <div className="inner">
           <div className="links">
-            <a href="#"><img src={facebook} alt="facebook" /></a>
-            <a href="#"><img src={twitter} alt="twitter" /></a>
-            <a href="#"><img src={instagram} alt="instagram" /></a>
-            <a href="#"><img src={linkedin} alt="linkedin" /></a>
+            <a href={facebookLink ? facebookLink : "#"}>
+              <img src={facebook} alt="facebook" />
+            </a>
+            <a href={twitterLink ? twitterLink : "#"}>
+              <img src={twitter} alt="twitter" />
+            </a>
+            <a href={instagramLink ? instagramLink : "#"}>
+              <img src={instagram} alt="instagram" />
+            </a>
+            <a href={linkedinLink ? linkedinLink : "#"}>
+              <img src={linkedin} alt="linkedin" />
+            </a>
           </div>
         </div>
       </div>

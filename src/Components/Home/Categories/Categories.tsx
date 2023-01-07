@@ -21,12 +21,7 @@ function Categories() {
       </div>
       <div className="list">
         {categories.map((category, i) => (
-          <CategoryCard
-						key={i}
-            image={category.image}
-            title={category.title}
-            courses={category.courses}
-          />
+          <CategoryCard key={i} {...category} />
         ))}
       </div>
     </div>

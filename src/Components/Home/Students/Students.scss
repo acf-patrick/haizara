@@ -1,0 +1,28 @@
+@import "../../../Assets/Styles/variables.scss";
+
+.students {
+  width: 70%;
+  margin: auto;
+  padding: 3rem 0;
+
+  &-container {
+    width: 100%;
+	margin-top: 0;
+    background: $bg-tertiary-color;
+  }
+
+  button {
+    border-radius: 2rem;
+  }
+
+  .list {
+    margin: 3rem 0;
+    display: flex;
+    gap: 1.5rem;
+    overflow: auto;
+
+    & > div {
+      flex-shrink: 0;
+    }
+  }
+}

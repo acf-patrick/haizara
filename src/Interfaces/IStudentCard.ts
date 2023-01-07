@@ -1,14 +1,13 @@
-interface IInstructorCard {
+interface IStudentCard {
   photo?: string;
+  badge?: string;
   name: string;
   status: string;
-  stars: number;
-  students: number;
-  courses: number;
+  tags: string[];
   facebook?: string;
   twitter?: string;
   instagram?: string;
   linkedin?: string;
 }
 
-export default IInstructorCard;
+export default IStudentCard;
