@@ -5,3 +5,22 @@ main > div {
   margin: auto;
   margin-top: 5rem;
 }
+
+.experiance {
+  h1 {
+    color: $header-color;
+    text-align: center;
+  }
+
+  p {
+    color: $text-color;
+    text-align: center;
+  }
+
+  &>div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+}

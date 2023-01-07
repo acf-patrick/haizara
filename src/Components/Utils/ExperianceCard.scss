@@ -1,0 +1,36 @@
+@import "../../Assets/Styles/variables.scss";
+
+.experiance-card {
+  width: 300px;
+  transition: transform 300ms;
+
+  &:hover {
+    @include shadow-4;
+    transform: translateY(-5px);
+  }
+
+  .inner {
+    padding: 2rem;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  p:first-of-type {
+    color: $header-color;
+    font-weight: bold;
+  }
+
+  .description {
+    color: $text-color;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    margin: 0;
+  }
+}

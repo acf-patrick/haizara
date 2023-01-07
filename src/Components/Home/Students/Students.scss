@@ -18,8 +18,9 @@
   .list {
     margin: 3rem 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
-    overflow: auto;
 
     & > div {
       flex-shrink: 0;
