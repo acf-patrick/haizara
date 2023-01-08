@@ -1,0 +1,41 @@
+@import "../../../Assets/Styles/variables.scss";
+
+.pricing {
+  width: 70%;
+  margin: auto;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-container {
+    width: 100%;
+    background: $bg-four-color;
+  }
+
+  .frequency {
+    font-size: 0.85rem;
+    margin: 2rem 0;
+    color: $header-color;
+
+    .save {
+      color: $primary-color;
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  h1 {
+    color: $header-color;
+    margin: 0;
+  }
+
+  p {
+    color: $text-color;
+  }
+}

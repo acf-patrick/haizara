@@ -1,13 +1,18 @@
-$text-color: #4F547B;
+$text-color: #4f547b;
 $header-color: #140342;
-$primary-color: #6440FB;
-$secondary-color: #1A064F;
-$border-primary-color: #EDEDED;
-$bg-tertiary-color: #F5F7FE;
-$bg-quaternary-color: #E8543E;
-$bg-fifth-color: #FEFBF4;
-$bg-six-color: #00FF84;
-$icon-color: #6A7A99;
+$primary-color: #6440fb;
+$secondary-color: #1a064f;
+$border-primary-color: #ededed;
+$bg-tertiary-color: #f5f7fe;
+$bg-quaternary-color: #e8543e;
+$bg-fifth-color: #fefbf4;
+$bg-six-color: #00ff84;
+$bg-four-color: #eef2f6;
+$icon-color: #6a7a99;
+
+@mixin shadow-3 {
+  box-shadow: 0px 20px 30px rgba(25, 25, 46, 0.04);
+}
 
 @mixin shadow-4 {
   box-shadow: 0px 25px 70px rgba(1, 33, 58, 0.07);

@@ -1,0 +1,92 @@
+@import "../../Assets/Styles/variables.scss";
+
+@mixin bg-transition {
+  transition: background 300ms;
+}
+
+.pricing-card {
+  width: 350px;
+  overflow: hidden;
+  border-radius: 16px;
+  @include shadow-3;
+  background: transparent;
+  @include bg-transition;
+
+  &:hover {
+    background: $primary-color;
+
+    &>div {
+      background: none;
+    }
+
+    .body * {
+      color: white;
+    }
+
+    path {
+      fill: white;
+    }
+
+    button {
+      color: $primary-color !important;
+      background: white;
+    }
+  }
+
+  & > div {
+    padding: 2rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  button {
+    color: $primary-color;
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    background: rgba(100, 64, 251, 0.07);
+    @include bg-transition();
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .head {
+    p {
+      color: white;
+      font-weight: bold;
+
+      &:nth-of-type(2) {
+        margin: 0.75rem 0;
+        font-size: 2rem;
+      }
+
+      &:last-of-type {
+        font-size: 0.75rem;
+        font-weight: normal;
+      }
+    }
+
+    background: $secondary-color;
+    @include bg-transition();
+  }
+
+  .body {
+    background: white;
+    @include bg-transition();
+    color: $text-color;
+
+    .description {
+      margin-bottom: 1.75rem;
+    }
+
+    .features > div {
+      margin: 1rem 0;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

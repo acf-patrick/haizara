@@ -1,5 +1,6 @@
 import Slide from "./Slide/Slide";
 import Header from "./Header/Header";
+import Pricing from "./Pricing/Pricing";
 import Courses from "./Courses/Courses";
 import Students from "./Students/Students";
 import Categories from "./Categories/Categories";
@@ -58,6 +59,7 @@ function Home() {
             ))}
           </div>
         </div>
+        <Pricing />
       </main>
     </>
   );
