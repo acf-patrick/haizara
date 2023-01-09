@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/haizara/static/css/main.77d4c5e7.css",
-    "main.js": "/haizara/static/js/main.ff82516a.js",
+    "main.css": "/haizara/static/css/main.a32bfe8a.css",
+    "main.js": "/haizara/static/js/main.e0818cfa.js",
     "static/js/787.8cb3fcfd.chunk.js": "/haizara/static/js/787.8cb3fcfd.chunk.js",
     "static/media/Mulish.ttf": "/haizara/static/media/Mulish.d8a9a18cece4ed88ac76.ttf",
     "static/media/GTWalsheimPro-Regular.ttf": "/haizara/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
@@ -44,12 +44,12 @@
     "static/media/facebook.svg": "/haizara/static/media/facebook.7cb8783ac2a77c7979b28b28fd853e1d.svg",
     "static/media/Rectangle 50.svg": "/haizara/static/media/Rectangle 50.0aba207d66a2d6538ef15b6eeff7a7a4.svg",
     "static/media/Rectangle 51.svg": "/haizara/static/media/Rectangle 51.cc1e8163a4f76b7585c848d7a74f9a3e.svg",
-    "main.77d4c5e7.css.map": "/haizara/static/css/main.77d4c5e7.css.map",
-    "main.ff82516a.js.map": "/haizara/static/js/main.ff82516a.js.map",
+    "main.a32bfe8a.css.map": "/haizara/static/css/main.a32bfe8a.css.map",
+    "main.e0818cfa.js.map": "/haizara/static/js/main.e0818cfa.js.map",
     "787.8cb3fcfd.chunk.js.map": "/haizara/static/js/787.8cb3fcfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77d4c5e7.css",
-    "static/js/main.ff82516a.js"
+    "static/css/main.a32bfe8a.css",
+    "static/js/main.e0818cfa.js"
   ]
 }
