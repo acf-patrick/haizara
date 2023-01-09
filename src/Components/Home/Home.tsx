@@ -7,7 +7,9 @@ import Categories from "./Categories/Categories";
 import Instructors from "./Instructors/Instructors";
 import ExperianceCard from "../Utils/ExperianceCard";
 import learn from "../../Assets/Images/learn.svg";
+import {ReactComponent as Apple} from "../../Assets/Images/apple.svg";
 import experts from "../../Assets/Images/experts.svg";
+import {ReactComponent as GooglePlay} from "../../Assets/Images/google-play.svg";
 import certificate from "../../Assets/Images/certificate 1.svg";
 import onlineLearning from "../../Assets/Images/online-learning 1.svg";
 import "./Home.scss";
@@ -60,6 +62,41 @@ function Home() {
           </div>
         </div>
         <Pricing />
+        <div className="apps">
+          <div className="frame"></div>
+          <div className="links">
+            <h1>
+              <div>Learn From</div>
+              <div>Anywhere</div>
+            </h1>
+            <p>
+              Take classes on the go with the educrat app. Stream or download to
+              watch on the plane, the subway, or wherever you learn best.
+            </p>
+            <div className="buttons">
+              <button>
+                <Apple />
+                <div>
+                  <span>Download on the</span>
+                  <span>Apple Store</span>
+                </div>
+              </button>
+              <button>
+                <GooglePlay />
+                <div>
+                  <span>Get it on</span>
+                  <span>Google Play</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="news-n-events">
+          <div className="title">
+            <h1>News & Events</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+        </div>
       </main>
     </>
   );

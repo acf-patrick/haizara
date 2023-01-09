@@ -17,10 +17,95 @@ main > div {
     text-align: center;
   }
 
-  &>div {
+  & > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
+  }
+}
+
+.apps {
+  color: $header-color;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  h1 > div:last-of-type {
+    color: $primary-color;
+  }
+
+  .frame {
+    width: 50%;
+    background: url("../../Assets/Images/learn-frame.svg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .links {
+    width: 45%;
+    padding: 4rem 0;
+
+    p {
+      font-size: 0.8rem;
+      margin: 2rem 0;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    button {
+      &:hover {
+        background: rgba(100, 64, 251, 0.07);
+        color: $primary-color;
+
+        path {
+          fill: $primary-color;
+        }
+      }
+
+      cursor: pointer;
+      color: white;
+      border: none;
+      background: $secondary-color;
+      transition: background 300ms;
+      display: flex;
+      gap: 1rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      align-items: center;
+
+      &>div {
+        display: flex;
+        flex-direction: column;
+
+        &>span {
+          text-align: start;
+
+          &:nth-of-type(2) {
+            font-size: 1.15rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.news-n-events {
+  .title {
+    display: block;
+
+    * {
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+    }
   }
 }
