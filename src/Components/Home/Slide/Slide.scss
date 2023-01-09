@@ -1,76 +1,82 @@
 @import "../../../Assets/Styles/variables.scss";
 
-/* .container {
-    height: 60vh;
-    background-image: url("../../../Assets/Images/Frame.svg");
-    background-repeat: no-repeat;
-    background-position: right center;
-} */
-
 .slide_container {
-    background-image: url("../../../Assets/Images/Frame.svg");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: right bottom;
-    padding: 10vw 0;
-    
-    .text {
-        width: 30%;
-        color: $header-color;
-        text-transform: capitalize;
-        transform: translateX(50%);
+  /* background-image: url("../../../Assets/Images/Frame.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right bottom;
+  padding: 10vw 0; */
 
-        h1 {
-            display: flex;
-            flex-direction: column;
-            font-size: 3vw;
-            font-weight: bolder;
-            margin: 0;
+	display: flex;
+	gap: 10vw;
+	align-items: center;
+	justify-content: end;
 
-            .career {
-                color: $primary-color;
-                text-decoration: underline;
-            }
-        }
+	.frame {
+		width: 50vw;
+		height: 70vh;
+		background-image: url("../../../Assets/Images/Frame.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: bottom;
+	}
 
-        p {
-            display: flex;
-            flex-direction: column;
-            padding: 0.25rem 0;
-        }
+  .text {
+    color: $header-color;
+    text-transform: capitalize;
+    // transform: translateX(50%);
 
-        .buttons {
-            display: flex;
-            gap: 1rem;
+    h1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 3vw;
+      font-weight: bolder;
+      margin: 0;
 
-            button {
-                padding: 0.7rem 2.2rem;
-                border-radius: 2rem;
-                text-transform: capitalize;
-                
-                &:nth-of-type(1) {
-                    color: white;
-                    border: none;
-                    background-color: $primary-color;
-                }
-
-                &:nth-of-type(2) {
-                    color: $secondary-color;
-                    border: 1px solid $secondary-color;
-                    background: transparent;
-                }
-            }
-        }
+      .career {
+        color: $primary-color;
+        text-decoration: underline;
+      }
     }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      padding: 0.25rem 0;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+
+      button {
+        padding: 0.7rem 2.2rem;
+        border-radius: 2rem;
+        text-transform: capitalize;
+
+        &:nth-of-type(1) {
+          color: white;
+          border: none;
+          background-color: $primary-color;
+        }
+
+        &:nth-of-type(2) {
+          color: $secondary-color;
+          border: 1px solid $secondary-color;
+          background: transparent;
+        }
+      }
+    }
+  }
 }
 
 .logos {
-    display: flex;
-    padding: 1.5rem 7rem;
-    justify-content: space-evenly;
-    background-color: $bg-tertiary-color;
+  display: flex;
+  padding: 1.5rem 7rem;
+  justify-content: space-evenly;
+  background-color: $bg-tertiary-color;
 
-    img {
-        width: 3rem;
-    }
+  img {
+    width: 3rem;
+  }
 }

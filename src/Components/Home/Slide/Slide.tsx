@@ -6,7 +6,6 @@ import dropcam from "../../../Assets/Images/dropcam.svg";
 import logitech from "../../../Assets/Images/logitech-2-1-3-1.svg";
 import spotify from "../../../Assets/Images/Spotify-2-2.svg";
 
-
 function Slide() {
   const logos: string[] = [
     amazon, amd, cisco,
@@ -33,6 +32,7 @@ function Slide() {
             <button>find courses</button>
           </div>
         </div>
+        <div className="frame"></div>
       </div>
       <div className="logos">
         {logos.map((logo, index) => <img src={logo} key={index} alt={logo} />)}

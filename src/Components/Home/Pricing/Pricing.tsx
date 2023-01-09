@@ -3,6 +3,12 @@ import PricingCard from "../../Utils/PricingCard";
 import "./Pricing.scss";
 
 function Pricing() {
+  const buttonOnClick = (e: any) => {
+    const circle: HTMLElement | null = document.querySelector('.pricing span.circle');
+    const left = circle?.style.left;
+    circle!.style.left = (left === "5px" || !left) ? "35px" : "5px";
+  };
+
   return (
     <div className="pricing-container">
       <div className="pricing">
@@ -10,9 +16,9 @@ function Pricing() {
         <p>Lorem ipsum dolor sit amet, consectetur.</p>
         <div className="frequency">
           <span>Monthly</span>
-          <button>
+          <span className="button" onClick={buttonOnClick}>
             <span className="circle"></span>
-          </button>
+          </span>
           <span>
             Annualy <span className="save">Save 30%</span>
           </span>
