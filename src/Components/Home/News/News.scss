@@ -1,0 +1,28 @@
+@import "../../../Assets/Styles/variables.scss";
+
+.news-n-events {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .news {
+      width: 70%;
+    }
+
+    .events {
+      display: none;
+    }
+  }
+
+  .title {
+    display: block;
+
+    * {
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

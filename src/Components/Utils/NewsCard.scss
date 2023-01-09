@@ -1,0 +1,27 @@
+@import "../../Assets/Styles/variables.scss";
+
+.news-card {
+  width: 410px;
+
+  h1 {
+    color: #242239;
+    font-size: 1.5rem;
+  }
+
+  .image {
+    height: 334px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .category {
+    color: $primary-color;
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
+
+  .date {
+    color: $text-color;
+    font-size: 0.75rem;
+  }
+}

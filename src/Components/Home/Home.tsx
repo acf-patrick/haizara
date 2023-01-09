@@ -1,3 +1,4 @@
+import News from "./News/News";
 import Slide from "./Slide/Slide";
 import Header from "./Header/Header";
 import Pricing from "./Pricing/Pricing";
@@ -91,12 +92,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="news-n-events">
-          <div className="title">
-            <h1>News & Events</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          </div>
-        </div>
+        <News />
       </main>
     </>
   );
