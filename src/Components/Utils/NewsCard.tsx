@@ -5,9 +5,14 @@ import "./NewsCard.scss";
 function NewsCard({ image, title, category, date }: INewsCard) {
   return (
     <div className="news-card">
-      <div className="image">
-        <img src={image ? image : surface} alt="image" />
-      </div>
+      <div
+        className="image"
+        style={{
+          background: `url(${image ? image : surface})`,
+          backgroundSize: "center",
+          backgroundRepeat: "no-repeat"
+        }}
+      ></div>
       <div className="category">{category}</div>
       <h1>{title}</h1>
       <div className="date">{date}</div>

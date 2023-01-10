@@ -1,5 +1,5 @@
 import NewsCard from "../../Utils/NewsCard";
-import EventCard from "../../Utils/EventCard";
+import EventCard from "../../Utils/MinNewsCard";
 import news from "./mockNews";
 import events from "./mockEvents";
 import "./News.scss";
