@@ -8,9 +8,7 @@ function NewsCard({ image, title, category, date }: INewsCard) {
       <div
         className="image"
         style={{
-          background: `url(${image ? image : surface})`,
-          backgroundSize: "center",
-          backgroundRepeat: "no-repeat"
+          backgroundImage: `url(${image ? image : surface})`
         }}
       ></div>
       <div className="category">{category}</div>
