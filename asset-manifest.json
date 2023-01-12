@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/haizara/static/css/main.a32bfe8a.css",
-    "main.js": "/haizara/static/js/main.e0818cfa.js",
+    "main.css": "/haizara/static/css/main.f24da6a6.css",
+    "main.js": "/haizara/static/js/main.3c960431.js",
     "static/js/787.8cb3fcfd.chunk.js": "/haizara/static/js/787.8cb3fcfd.chunk.js",
     "static/media/Mulish.ttf": "/haizara/static/media/Mulish.d8a9a18cece4ed88ac76.ttf",
+    "static/media/sofiapro-light.otf": "/haizara/static/media/sofiapro-light.7978d11b00722a17ccfa.otf",
     "static/media/GTWalsheimPro-Regular.ttf": "/haizara/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
+    "static/media/learn-frame.svg": "/haizara/static/media/learn-frame.030b57fd02ec1947feaf.svg",
     "static/media/Frame.svg": "/haizara/static/media/Frame.08ae1d03fce08b3cc70d.svg",
     "static/media/computer.svg": "/haizara/static/media/computer.609f698c2c05c1d98c55c22c31eb525a.svg",
     "static/media/camera.svg": "/haizara/static/media/camera.4b1200cbf477ff12e0926d22cb48e9db.svg",
@@ -29,6 +31,7 @@
     "static/media/instagram.svg": "/haizara/static/media/instagram.67413e9a2ae307844e98e71250ab8392.svg",
     "static/media/bar-chart 1.svg": "/haizara/static/media/bar-chart 1.d41966a38cb4508d4c86889cf875b02d.svg",
     "static/media/document 1.svg": "/haizara/static/media/document 1.8cb35da3149d78319e2d140499859fbd.svg",
+    "static/media/apple.svg": "/haizara/static/media/apple.356707db54e84e34a1778202d3cbad72.svg",
     "static/media/basket.svg": "/haizara/static/media/basket.6452d586fc5cc8500059973dbff3eb47.svg",
     "static/media/twitter.svg": "/haizara/static/media/twitter.15557ee09cfe5059720c5dd88312dccd.svg",
     "static/media/course.svg": "/haizara/static/media/course.b1b57508750c9661c474619a6448f4fe.svg",
@@ -37,6 +40,7 @@
     "static/media/Vector.svg": "/haizara/static/media/Vector.31b51d81146538978dd8a200c50534bc.svg",
     "index.html": "/haizara/index.html",
     "static/media/linkedin.svg": "/haizara/static/media/linkedin.c7a91bb147d932c9e8bc20fa5ac0d66c.svg",
+    "static/media/google-play.svg": "/haizara/static/media/google-play.ee84a645be605abb8ab314b4ee145954.svg",
     "static/media/star.svg": "/haizara/static/media/star.d895317ef5fa7bd369a54c20a5bd0bc4.svg",
     "static/media/search.svg": "/haizara/static/media/search.0db775b1f4c755e8110b83dc7076205a.svg",
     "static/media/check.svg": "/haizara/static/media/check.14e2cd0e1789e07bcac9a6f953481d55.svg",
@@ -44,12 +48,12 @@
     "static/media/facebook.svg": "/haizara/static/media/facebook.7cb8783ac2a77c7979b28b28fd853e1d.svg",
     "static/media/Rectangle 50.svg": "/haizara/static/media/Rectangle 50.0aba207d66a2d6538ef15b6eeff7a7a4.svg",
     "static/media/Rectangle 51.svg": "/haizara/static/media/Rectangle 51.cc1e8163a4f76b7585c848d7a74f9a3e.svg",
-    "main.a32bfe8a.css.map": "/haizara/static/css/main.a32bfe8a.css.map",
-    "main.e0818cfa.js.map": "/haizara/static/js/main.e0818cfa.js.map",
+    "main.f24da6a6.css.map": "/haizara/static/css/main.f24da6a6.css.map",
+    "main.3c960431.js.map": "/haizara/static/js/main.3c960431.js.map",
     "787.8cb3fcfd.chunk.js.map": "/haizara/static/js/787.8cb3fcfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a32bfe8a.css",
-    "static/js/main.e0818cfa.js"
+    "static/css/main.f24da6a6.css",
+    "static/js/main.3c960431.js"
   ]
 }
