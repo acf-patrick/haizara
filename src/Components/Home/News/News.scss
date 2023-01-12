@@ -1,16 +1,30 @@
 @import "../../../Assets/Styles/variables.scss";
 
 .news-n-events {
+  width: 100%;
+
   .list {
+    margin-top: 2rem;
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 
     .news {
-      width: 70%;
+      min-width: 620px;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
     }
 
-    .events {
-      display: none;
+    .min {
+      max-height: 430px;
+      overflow: auto;
+      padding-right: 1rem;
+
+      &>div {
+        margin-bottom: 1rem;
+      }
     }
   }
 

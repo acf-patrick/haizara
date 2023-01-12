@@ -1,0 +1,59 @@
+@import "../../Assets/Styles/variables.scss";
+
+.min-news-card {
+  display: flex;
+  gap: 1rem;
+
+  &:hover {
+    .date {
+      color: white;
+      background: $header-color;
+    }
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    color: $header-color;
+    transition-property: background, color;
+    transition-duration: 200ms;
+    background: $bg-secondary-color;
+
+    span {
+      &:first-of-type {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      &:last-of-type {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    span {
+      &:first-of-type {
+        font-size: 0.75rem;
+        color: $primary-color;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+
+      &:last-of-type {
+        font-size: 0.85rem;
+        color: $header-color;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

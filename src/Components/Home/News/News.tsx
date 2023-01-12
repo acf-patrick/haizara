@@ -1,7 +1,6 @@
 import NewsCard from "../../Utils/NewsCard";
-import EventCard from "../../Utils/MinNewsCard";
+import MinNewsCard from "../../Utils/MinNewsCard";
 import news from "./mockNews";
-import events from "./mockEvents";
 import "./News.scss";
 
 function News() {
@@ -13,13 +12,12 @@ function News() {
       </div>
       <div className="list">
         <div className="news">
-          {news.map((n, i) => (
-            <NewsCard {...n} key={i} />
-          ))}
+          <NewsCard {...news[0]} />
+          <NewsCard {...news[1]} />
         </div>
-        <div className="events">
-          {events.map((e, i) => (
-            <EventCard {...e} key={i} />
+        <div className="min">
+          {news.slice(2).map((e, i) => (
+            <MinNewsCard {...e} key={i} />
           ))}
         </div>
       </div>

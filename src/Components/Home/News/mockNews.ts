@@ -8,9 +8,44 @@ const news: INewsCard[] = [
   },
   {
     category: "design",
-    title: "how to design a simple, yet unique and memorable brand identity",
+    title: "How to design a simple, yet unique and memorable brand identity",
     date :"December 16, 2022"
-  }
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
+  {
+    date: "June 15, 2022",
+    category: "courses",
+    title: "medical chemistry: the molecular basis",
+  },
 ];
 
 export default news;
