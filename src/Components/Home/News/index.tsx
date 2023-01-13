@@ -1,7 +1,7 @@
 import NewsCard from "../../Utils/NewsCard";
 import MinNewsCard from "../../Utils/MinNewsCard";
 import news from "./mockNews";
-import "./News.scss";
+import "./index.scss";
 
 function News() {
   return (

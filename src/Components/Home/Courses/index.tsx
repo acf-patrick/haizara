@@ -1,8 +1,8 @@
 import { useState } from "react";
 import courses from "./mockCourses"
 import CourseCard from "../../Utils/CourseCard";
-import "./Courses.scss";
 import "../../../Assets/Styles/styles.scss";
+import "./index.scss";
 
 function Courses() {
   const [active, setActive] = useState(0);

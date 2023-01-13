@@ -1,4 +1,4 @@
-import "./Header.scss";
+import "./index.scss";
 import logo from "../../../Assets/Images/icon.svg";
 import rect1 from "../../../Assets/Images/Rectangle 50.svg";
 import rect2 from "../../../Assets/Images/Rectangle 51.svg";

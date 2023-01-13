@@ -1,11 +1,12 @@
-import News from "./News/News";
-import Slide from "./Slide/Slide";
-import Header from "./Header/Header";
-import Pricing from "./Pricing/Pricing";
-import Courses from "./Courses/Courses";
-import Students from "./Students/Students";
-import Categories from "./Categories/Categories";
-import Instructors from "./Instructors/Instructors";
+import News from "./News";
+import Slide from "./Slide";
+import Header from "./Header";
+import Pricing from "./Pricing";
+import Courses from "./Courses";
+import Students from "./Students";
+import Categories from "./Categories";
+import Instructors from "./Instructors";
+import Recommendations from "./Recommendations";
 import ExperianceCard from "../Utils/ExperianceCard";
 import learn from "../../Assets/Images/learn.svg";
 import {ReactComponent as Apple} from "../../Assets/Images/apple.svg";
@@ -93,6 +94,7 @@ function Home() {
           </div>
         </div>
         <News />
+        <Recommendations />
       </main>
     </>
   );

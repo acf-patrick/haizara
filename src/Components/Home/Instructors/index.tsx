@@ -1,4 +1,4 @@
-import "./Instructors.scss";
+import "./index.scss";
 import send from "../../../Assets/Images/send.svg";
 import instructors from "./mockInstructors";
 import InstructorCard from "../../Utils/InstructorCard";

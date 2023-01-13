@@ -1,4 +1,4 @@
-import "./Categories.scss";
+import "./index.scss";
 import "../../../Assets/Styles/styles.scss";
 import send from "../../../Assets/Images/send.svg";
 import CategoryCard from "../../Utils/CategoryCard";

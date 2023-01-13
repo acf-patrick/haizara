@@ -1,6 +1,6 @@
 import pricingList from "./mockPricing";
 import PricingCard from "../../Utils/PricingCard";
-import "./Pricing.scss";
+import "./index.scss";
 
 function Pricing() {
   const buttonOnClick = (e: any) => {

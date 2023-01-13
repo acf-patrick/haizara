@@ -1,4 +1,4 @@
-import "./Slide.scss";
+import "./index.scss";
 import amazon from "../../../Assets/Images/amazon-4.svg";
 import amd from "../../../Assets/Images/amd-logo-1-2.svg";
 import cisco from "../../../Assets/Images/cisco-2-1-2.svg";

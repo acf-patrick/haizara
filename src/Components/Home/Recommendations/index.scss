@@ -1,0 +1,36 @@
+@import "../../../Assets/Styles/variables.scss";
+
+.recommendations {
+  width: 70vw;
+  margin: auto;
+
+  &-container {
+    width: 100%;
+    padding: 4rem 0;
+    background: $secondary-color;
+  }
+
+  .title {
+    display: block;
+
+    * {
+      color: white !important;
+    }
+  }
+
+  form {
+    margin: 3rem 0;
+    display: flex;
+
+    * {
+      color: $header-color;
+      font-weight: bold;
+    }
+
+    select {
+      padding: 1rem 1.25rem;
+      border-radius: 2rem;
+      border-right: 1rem solid transparent;
+    }
+  }
+}

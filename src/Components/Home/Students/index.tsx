@@ -2,7 +2,7 @@ import students from "./mockStudents";
 import send from "../../../Assets/Images/send.svg";
 import StudentCard from "../../Utils/StudentCard";
 import "../../../Assets/Styles/styles.scss";
-import "./Students.scss";
+import "./index.scss";
 
 function Students() {
   return (
