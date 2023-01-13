@@ -6,8 +6,16 @@
 
   &-container {
     width: 100%;
-    padding: 4rem 0;
+    padding: 5rem 0;
     background: $secondary-color;
+    background-image: url("../../../Assets/Images/recommendation-frame.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
   }
 
   .title {
@@ -21,6 +29,7 @@
   form {
     margin: 3rem 0;
     display: flex;
+    gap: 1.5rem;
 
     * {
       color: $header-color;
@@ -28,9 +37,26 @@
     }
 
     select {
-      padding: 1rem 1.25rem;
+      padding: 1rem 1.5rem;
+      padding-right: 3rem;
       border-radius: 2rem;
       border-right: 1rem solid transparent;
+    }
+
+    button {
+      cursor: pointer;
+      color: white;
+      border: none;
+      padding: 1rem 3rem;
+      border-radius: 8px;
+      transition: background 300ms;
+      background: $primary-color;
+
+      &:hover {
+        color: $primary-color;
+        outline: 1px solid $primary-color;
+        background: $bg-secondary-color;
+      }
     }
   }
 }

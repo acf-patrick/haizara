@@ -7,7 +7,7 @@ function Recommendations() {
         <h1>Get personnal learning recommendations</h1>
         <p>Enhance your skills with best online courses</p>
       </div>
-      <form>
+      <form onSubmit={(e) => { e.preventDefault(); }}>
         <select name="category" id="category">
           <option value="" disabled selected>Category</option>
         </select>

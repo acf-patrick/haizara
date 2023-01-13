@@ -23,16 +23,16 @@ a {
 
 $padding: 1rem;
 
+header {
+  padding: 0 2rem;
+}
+
 .header {
   justify-content: space-between;
   color: $header-color;
   padding: 0.5rem 0;
   border-bottom: 1px solid $border-primary-color;
-
-  &_container {
-    padding: 0 2rem;
-  }
-
+  
   .links {
     margin: 0;
     padding: 0 $padding;
@@ -54,6 +54,31 @@ $padding: 1rem;
     }
   }
   
+  form {
+    position: relative;
+
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      padding-left: 1.2rem;
+      padding-right: 5rem;
+      border-radius: $radius;
+      border: 1px solid $border-primary-color;
+
+      &::placeholder {
+        font-size: 0.65rem;
+      }
+    }
+
+    button {
+      position: absolute;
+      background-color: transparent;
+      border: none;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 1rem;
+    }
+  }
 }
 
 .logo {
@@ -136,28 +161,3 @@ $padding: 1rem;
   }
 }
 
-form {
-  position: relative;
-
-  input {
-    width: 100%;
-    padding: 0.75rem;
-    padding-left: 1.2rem;
-    padding-right: 5rem;
-    border-radius: $radius;
-    border: 1px solid $border-primary-color;
-
-    &::placeholder {
-      font-size: 0.65rem;
-    }
-  }
-
-  button {
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 1rem;
-  }
-}

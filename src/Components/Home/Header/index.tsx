@@ -8,7 +8,7 @@ import basket from "../../../Assets/Images/basket.svg";
 
 function Header() {
   return (
-    <div className="header_container">
+    <header>
       <div className="header flex">
         <div className="left flex">
           <div className="logo flex align-center">
@@ -67,7 +67,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

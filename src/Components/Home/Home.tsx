@@ -1,5 +1,6 @@
 import News from "./News";
 import Slide from "./Slide";
+import Footer from "./Footer";
 import Header from "./Header";
 import Pricing from "./Pricing";
 import Courses from "./Courses";
@@ -94,8 +95,9 @@ function Home() {
           </div>
         </div>
         <News />
-        <Recommendations />
       </main>
+      <Recommendations />
+      <Footer />
     </>
   );
 }

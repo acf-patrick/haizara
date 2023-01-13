@@ -1,0 +1,168 @@
+@import "../../../Assets/Styles/variables.scss";
+
+@mixin border {
+  border-bottom: 1px solid rgba($color: white, $alpha: 0.25);
+}
+
+footer {
+  background: $primary-color;
+
+  * {
+    color: white;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .misc {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div:last-of-type {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .language {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding: 0.95rem 2rem;
+      border-radius: 2rem;
+      transition: background 300ms;
+      background: rgba($color: white, $alpha: 0.1);
+
+      &:hover {
+        background: white;
+
+        span {
+          color: $primary-color;
+        }
+
+        path {
+          fill: $primary-color;
+        }
+      }
+    }
+
+    * {
+      font-size: 0.75rem;
+    }
+  }
+
+  .content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0;
+    @include border;
+
+    .links span {
+      margin-left: 1rem;
+
+      a {
+        padding: 0.75rem 1rem;
+        border-radius: 2rem;
+        transition: background 500ms;
+        background: transparent;
+
+        &:hover {
+          background: rgba($color: white, $alpha: 0.25);
+        }
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+
+  .medias {
+    display: flex;
+    gap: 1rem;
+
+    & > div:first-of-type {
+      text-transform: capitalize;
+    }
+  }
+
+  .content > .links {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+    @include border;
+
+    & > div {
+      display: flex;
+      gap: 0.75rem;
+      flex-direction: column;
+
+      &:nth-of-type(3) span {
+        flex-grow: 0.5;
+      }
+
+      a {
+        text-transform: capitalize;
+        font-size: 0.85rem;
+
+        &:hover {
+          text-decoration: underline;
+          color: #00ff84;
+        }
+      }
+
+      span {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  form {
+    background: white;
+    border-radius: 2rem;
+    padding: 0.25rem 0;
+    padding-right: 0.5rem;
+    overflow: hidden;
+
+    input {
+      color: $primary-color;
+      padding: 1rem;
+      border: none;
+
+      &:focus {
+        border: none !important;
+        outline: none;
+        border: 1px solid $primary-color;
+      }
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 2rem;
+      transition: background 300ms;
+      background: $primary-color;
+
+      &:hover {
+        background: $secondary-color;
+      }
+    }
+  }
+}
