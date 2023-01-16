@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/haizara/static/css/main.f24da6a6.css",
-    "main.js": "/haizara/static/js/main.3c960431.js",
+    "main.css": "/haizara/static/css/main.8a19b229.css",
+    "main.js": "/haizara/static/js/main.5f7bfa65.js",
     "static/js/787.8cb3fcfd.chunk.js": "/haizara/static/js/787.8cb3fcfd.chunk.js",
     "static/media/Mulish.ttf": "/haizara/static/media/Mulish.d8a9a18cece4ed88ac76.ttf",
     "static/media/sofiapro-light.otf": "/haizara/static/media/sofiapro-light.7978d11b00722a17ccfa.otf",
     "static/media/GTWalsheimPro-Regular.ttf": "/haizara/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
+    "static/media/recommendation-frame.svg": "/haizara/static/media/recommendation-frame.af8abb6b8968d9d43e30.svg",
     "static/media/learn-frame.svg": "/haizara/static/media/learn-frame.030b57fd02ec1947feaf.svg",
     "static/media/Frame.svg": "/haizara/static/media/Frame.08ae1d03fce08b3cc70d.svg",
     "static/media/computer.svg": "/haizara/static/media/computer.609f698c2c05c1d98c55c22c31eb525a.svg",
@@ -25,8 +26,10 @@
     "static/media/logitech-2-1-3-1.svg": "/haizara/static/media/logitech-2-1-3-1.fe80382c446937cffeb81d31dc3730ae.svg",
     "static/media/dropcam.svg": "/haizara/static/media/dropcam.e734a28068f4e2e522e9ec023146755a.svg",
     "static/media/certificate 1.svg": "/haizara/static/media/certificate 1.fc589285c66b674174c56eb86ece9d8d.svg",
+    "static/media/worldwide.svg": "/haizara/static/media/worldwide.50da6d7ff04eb12bcbfd198fa925ecd3.svg",
     "static/media/badge.svg": "/haizara/static/media/badge.d49d1d28da11e7bf0e2f199ac6bac361.svg",
     "static/media/icon.svg": "/haizara/static/media/icon.7aa45d3ae7776b5cf86d5c233dcda713.svg",
+    "static/media/logo.svg": "/haizara/static/media/logo.73402791e71306de61dda253b5f7f721.svg",
     "static/media/student.svg": "/haizara/static/media/student.fecf31e46f64a0c6e62e3ddaab76712e.svg",
     "static/media/instagram.svg": "/haizara/static/media/instagram.67413e9a2ae307844e98e71250ab8392.svg",
     "static/media/bar-chart 1.svg": "/haizara/static/media/bar-chart 1.d41966a38cb4508d4c86889cf875b02d.svg",
@@ -48,12 +51,12 @@
     "static/media/facebook.svg": "/haizara/static/media/facebook.7cb8783ac2a77c7979b28b28fd853e1d.svg",
     "static/media/Rectangle 50.svg": "/haizara/static/media/Rectangle 50.0aba207d66a2d6538ef15b6eeff7a7a4.svg",
     "static/media/Rectangle 51.svg": "/haizara/static/media/Rectangle 51.cc1e8163a4f76b7585c848d7a74f9a3e.svg",
-    "main.f24da6a6.css.map": "/haizara/static/css/main.f24da6a6.css.map",
-    "main.3c960431.js.map": "/haizara/static/js/main.3c960431.js.map",
+    "main.8a19b229.css.map": "/haizara/static/css/main.8a19b229.css.map",
+    "main.5f7bfa65.js.map": "/haizara/static/js/main.5f7bfa65.js.map",
     "787.8cb3fcfd.chunk.js.map": "/haizara/static/js/787.8cb3fcfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f24da6a6.css",
-    "static/js/main.3c960431.js"
+    "static/css/main.8a19b229.css",
+    "static/js/main.5f7bfa65.js"
   ]
 }
